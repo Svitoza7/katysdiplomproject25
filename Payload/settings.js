@@ -1,1 +1,1 @@
-PubViewer.Document.Settings = {"appIdentifier":"katerynadiplomproject","appName":"Maksymchuk_Kateryna_diploma","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":false,"restoreLatestPage":true};
+PubViewer.Document.Settings = {"appIdentifier":"6E865E9BCF454C4BABAA8B40B324D32D","appName":"Maksymchuk_Kateryna_diploma","backgroundColor":"#EFEEE8","facingPagesInLandscape":false,"lockOrientation":false,"restoreLatestPage":true};
