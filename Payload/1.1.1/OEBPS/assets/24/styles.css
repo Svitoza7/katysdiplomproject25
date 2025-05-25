@@ -1,0 +1,393 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj725 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 768px;
+height: 1024px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj725_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 768px;
+	height: 1024px;
+}
+
+
+
+
+
+
+
+
+
+div#obj727 {
+	position: absolute;
+overflow: hidden;
+top: 241px;
+left: 112px;
+width: 546px;
+height: 548px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+	font-family:arial, helvetica, sans-serif;
+	font-size:22px;
+	text-align:left;
+
+	border-color: #000000;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 300px;
+	-moz-border-radius: 300px;
+	-webkit-border-radius: 300px;
+	background-color: #9EAA9E;
+}
+
+div#obj727 h1 {
+	font-size: 1em;
+}
+
+div#obj727 h1.title {
+  display: block;
+}
+
+div#obj727 .chapter_label {
+  font-family:arial, helvetica, sans-serif;
+  font-size:26px; 
+  color: #000000;
+}
+
+div#obj727 .chapter_number {
+  display: none;
+  text-align:center; 
+  padding-left: 0px; 
+  padding-right: 10px;
+}
+
+div#obj727 .counter {
+  font-family:arial, helvetica, sans-serif;
+  font-size:26px; 
+  color: #000000;
+}
+
+div#obj727 .practice {
+	position: absolute;
+	top: 0px;
+	width: 546px;
+	height: 548px;
+}
+
+div#obj727 .practicediv{
+	margin: 100px;
+	width: 346px;
+	height: 448px;
+}
+
+div#obj727 .practice > header{
+	display:none;
+}
+
+div#obj727 .practicelist{
+	padding:0;
+}
+
+div#obj727  .multiple-choice-problem{
+	list-style-type: none;
+	visibility: hidden;
+}
+
+div#obj727  .practicediv .choices{
+	padding:0;
+}
+
+div#obj727 .practicediv .choices li{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+div#obj727 .practicediv .choices .choice-content {
+	margin-left: 6px;
+}
+
+/* BOTTONI */
+div#obj727 .quiz-buttons{
+	display: block;
+	position:relative;
+	z-index: 2;
+	bottom: 30px;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+
+div#obj727 .swiper-container .quiz-buttons{
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+	margin-top: 91.33333px;
+	text-align: center;
+	height: 30px;
+}
+
+div#obj727 button.quiz-button {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #979797;
+	border-radius: 6px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+
+div#obj727 .messaggio-finale{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+
+div#obj727 .conteggio-finale{
+	width: 100%;
+	text-align: center;
+	margin-top: 0.8em;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+div#obj727 .conteggio-finale div{
+	width: 22px;
+	text-align: center;
+}
+
+
+div#obj727 .finale-quiz {
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+div#obj727 .finale-quiz-choice-right{
+	background-image : url("../../images/scquiz-check-right.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+}
+div#obj727 .finale-quiz-choice-wrong{
+	background-image : url("../../images/scquiz-check-wrong.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+div#obj727 .finale-quiz-choice-missed{
+	background-image : url("../../images/scquiz-check-off.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+
+div#obj727 label.css-label{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div#obj727 .arrow-left {
+	  background: url(../../images/scquiz-prev.png) no-repeat;
+	  background-size: 50px 50px;
+	  position: absolute;
+	  left: 5px;
+	  top: 50%;
+	  margin-top: -25px;
+	  width: 50px;
+	  height: 50px;
+	  z-index: 2;
+	  display: none;
+}
+div#obj727 .arrow-right {
+	  background: url(../../images/scquiz-next.png) no-repeat;
+	  background-size: 50px 50px;
+	  position: absolute;
+	  right: 5px;
+	  top: 50%;
+	  margin-top: -25px;
+	  width: 50px;
+	  height: 50px;
+	  z-index: 2;
+	  display: none;
+}
+
+/* CHECKBOX UNCHECKED*/
+div#obj727 input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 22px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 3px;
+	min-height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	cursor: pointer;
+}
+div#obj727 input[type=radio].css-checkbox + label.css-label {
+	padding-left: 22px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 3px;
+	min-height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+div#obj727 input[type=checkbox].css-checkbox,
+div#obj727 input[type=radio].css-checkbox{
+	display: none;
+}
+
+/* esempio di personalizzazione del tipo di elenco*/
+div#obj727 .multiple-choice-problem .choices li{
+  list-style-type:none;
+}
+
+
+/* CHECKBOX */
+
+div#obj727 label.css-label.lb-checkbox{
+	background-image : url("../../images/scquiz-check-off.png");
+	background-size: 22px 22px;
+}
+div#obj727 input[type=checkbox].css-checkbox:checked + label.css-label.lb-checkbox{
+	background-image : url("../../images/scquiz-check-on.png");
+	background-size: 22px 22px;
+}
+
+div#obj727 .quiz-choice-wrong input[type=checkbox].css-checkbox + label.css-label.lb-checkbox{
+	background-image : url("../../images/scquiz-check-wrong.png");
+	background-size: 22px 22px;
+}
+
+div#obj727 .quiz-choice-right input[type=checkbox].css-checkbox + label.css-label.lb-checkbox {
+	background-image : url("../../images/scquiz-check-right.png");
+	background-size: 22px 22px;
+}
+div#obj727 .quiz-choice-missed input[type=checkbox].css-checkbox + label.css-label.lb-checkbox {
+	background-image : url("../../images/scquiz-check-missed.png");
+	background-size: 22px 22px;
+}
+
+
+/* RADIO */
+
+div#obj727 label.css-label.lb-radio{
+	background-image : url("../../images/scquiz-radio-off.png");
+	background-size: 22px 22px;
+}
+div#obj727 input[type=radio].css-checkbox:checked + label.css-label.lb-radio {
+	background-image : url("../../images/scquiz-radio-on.png");
+	background-size: 22px 22px;
+}
+
+div#obj727 .quiz-choice-wrong input[type=radio].css-checkbox + label.css-label.lb-radio {
+	background-image : url("../../images/scquiz-radio-wrong.png");
+	background-size: 22px 22px;
+}
+
+div#obj727 .quiz-choice-right input[type=radio].css-checkbox + label.css-label.lb-radio {
+	background-image : url("../../images/scquiz-radio-right.png");
+	background-size: 22px 22px;
+}
+div#obj727 .quiz-choice-missed input[type=radio].css-checkbox + label.css-label.lb-radio {
+	background-image : url("../../images/scquiz-radio-missed.png");
+	background-size: 22px 22px;
+}
+
+/* FONTS */
+div#obj727 div.question p {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+div#obj727 span.choice-content {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 22px;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+.SCPage {
+background-color: #FFFFFF
+}

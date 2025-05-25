@@ -1,0 +1,297 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj707 {
+position: absolute;
+overflow: hidden;
+top: 2px;
+left: 0px;
+width: 768px;
+height: 1023px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj707_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 768px;
+	height: 1023px;
+}
+div#obj2029 {
+position: absolute;
+overflow: hidden;
+top: 925px;
+left: 660px;
+width: 87px;
+height: 74px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj2029_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 87px;
+	height: 74px;
+}
+
+div#obj717 {
+position: absolute;
+overflow: hidden;
+top: 73px;
+left: 78px;
+width: 615px;
+height: 95px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+font-family: arial, helvetica, sans-serif;
+font-size: 24px;
+color: #000000;
+text-align: justify;
+}
+
+div#obj717_content {
+
+}
+
+
+
+div#obj1068 {
+position: absolute;
+overflow: hidden;
+top: 59px;
+left: 60px;
+width: 648px;
+height: 120px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+background-image: none;
+border-color: rgba(0,0,0,0);
+border-width: 1px;
+border-style: solid;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+background-color: rgba(255,255,255,0.572549);
+background-repeat: repeat;
+}
+
+
+
+
+
+
+
+
+
+#obj709 {
+  position: absolute;
+overflow: hidden;
+top: 228px;
+left: 45px;
+width: 680px;
+height: 745px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+background-color: rgba(255,255,255,0.6784314);
+border-color: #000000;
+border-width: 1px;
+border-style: solid;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+  padding: 10px;
+  color: #000000;
+}
+
+#obj709, #obj709 button {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 22px;
+  color: #000000;
+}
+
+#obj709 .wrapper {
+  height: calc(100% - 50px - 10px);
+}
+
+#obj709 .statement:nth-child(odd) {
+  background-color: rgba(230,230,230,0.4901961);
+}
+
+#obj709 .toolbox {
+  display: block;
+  top: 10px;
+}
+
+#obj709 .pagination > div {
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+}
+
+div#obj709 .prev {
+  background-image: url(../../images/sctruefalse-up.png);
+}
+div#obj709 .next {
+  background-image: url(../../images/sctruefalse-down.png);
+}
+
+#obj709 .label input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+#obj709 .label {
+  position: relative;
+}
+
+#obj709 .label label > span {
+  margin-left: 5px;
+}
+
+#obj709 .label label {
+  background-image: url("../../images/sctruefalse-radio-off.png");
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 22px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 3px;
+  vertical-align: top;
+  cursor: pointer;
+  min-height: 30px;
+  line-height: 30px;
+}
+
+#obj709 .label input[type="radio"]:checked + label {
+  background-image: url("../../images/sctruefalse-radio-on.png");
+}
+
+#obj709 .label input[type="radio"].right:checked + label {
+    background-image: url("../../images/sctruefalse-radio-right.png");
+  }
+
+#obj709 .label input[type="radio"].wrong:checked + label {
+  background-image: url("../../images/sctruefalse-radio-wrong.png");
+}
+
+#obj709 .label input[type="radio"].missed + label {
+  background-image: url("../../images/sctruefalse-radio-missed.png");
+}
+
+
+#obj709  .finale-true-false {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  height: 22px;
+  background-position: left center;
+  margin-right: 25px;
+}
+
+#obj709  .finale-true-false:last-child {
+  margin-right: 0px;
+}
+
+#obj709 .finale-true-false > span {
+    padding-left: 25px;
+}
+
+#obj709 .finale-true-false-right {
+  background-image: url("../../images/sctruefalse-radio-right.png");
+  
+}
+
+#obj709 .finale-true-false-wrong {
+  background-image: url("../../images/sctruefalse-radio-wrong.png");
+}
+
+#obj709 .finale-true-false-missed {
+  background-image: url("../../images/sctruefalse-radio-off.png");
+}
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+.SCPage {
+background-color: #FFFFFF
+}

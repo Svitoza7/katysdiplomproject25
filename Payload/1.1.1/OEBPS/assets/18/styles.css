@@ -1,0 +1,284 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj1076 {
+position: absolute;
+overflow: hidden;
+top: -4px;
+left: 0px;
+width: 768px;
+height: 1028px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1076_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 768px;
+	height: 1028px;
+}
+div#obj1084 {
+position: absolute;
+overflow: hidden;
+top: 56px;
+left: 7px;
+width: 211px;
+height: 191px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1084_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 211px;
+	height: 191px;
+}
+div#obj1087 {
+position: absolute;
+overflow: hidden;
+top: 441px;
+left: 523px;
+width: 192px;
+height: 216px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1087_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 192px;
+	height: 216px;
+}
+div#obj1090 {
+position: absolute;
+overflow: hidden;
+top: 40px;
+left: 557px;
+width: 125px;
+height: 126px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1090_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 125px;
+	height: 126px;
+}
+div#obj1093 {
+position: absolute;
+overflow: hidden;
+top: 420px;
+left: 151px;
+width: 181px;
+height: 144px;
+opacity: 1;
+z-index: 6;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1093_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 181px;
+	height: 144px;
+}
+div#obj1105 {
+position: absolute;
+overflow: hidden;
+top: 415px;
+left: 314px;
+width: 245px;
+height: 189px;
+opacity: 1;
+z-index: 7;
+display:block;
+pointer-events: none;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj1105_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 245px;
+	height: 189px;
+}
+div#obj2017 {
+position: absolute;
+overflow: hidden;
+top: 925px;
+left: 660px;
+width: 87px;
+height: 74px;
+opacity: 1;
+z-index: 8;
+display:block;
+pointer-events: auto;
+
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+
+}
+img#obj2017_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 87px;
+	height: 74px;
+}
+
+div#obj1080 {
+position: absolute;
+overflow: hidden;
+top: 243px;
+left: 106px;
+width: 559px;
+height: 121px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: auto;
+
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+font-family: arial, helvetica, sans-serif;
+font-size: 24px;
+color: #F5D36F;
+text-align: justify;
+}
+
+div#obj1080_content {
+
+}
+div#obj1082 {
+position: absolute;
+overflow: hidden;
+top: 658px;
+left: 105px;
+width: 560px;
+height: 273px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: auto;
+
+user-select: text;  
+-moz-user-select: text;
+-webkit-user-select: text;
+-ms-user-select: text;
+
+font-family: arial, helvetica, sans-serif;
+font-size: 24px;
+color: #F5D36F;
+text-align: justify;
+}
+
+div#obj1082_content {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+
+.SCPage {
+background-color: #FFFFFF
+}

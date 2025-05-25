@@ -1,0 +1,296 @@
+pubcoder.projectID = pubcoder.projectID || "2DBE48463DD557418E03046A283E1790";
+pubcoder.project.id = pubcoder.project.id || "2DBE48463DD557418E03046A283E1790";
+pubcoder.project.title = pubcoder.project.title || "Maksymchuk_Kateryna_diploma";
+pubcoder.page.id = pubcoder.page.id || 613;
+pubcoder.page.title = pubcoder.page.title || "19";
+pubcoder.page.number = pubcoder.page.number || 19;
+pubcoder.page.alias = pubcoder.page.alias || "";
+
+
+var ua = navigator.userAgent.toLowerCase();
+var touchDownEvent;
+var touchUpEvent;
+var isMobile;
+var aigX = 0, aigY = 0;
+var askAudioPermission = false;
+
+
+
+/*
+ * 
+ * Init Action Lists
+ *
+ * 
+ */
+
+
+/*
+ * 
+ * Init SCCounter
+ *
+ * 
+ */
+ 
+
+ $(window).on(PubCoder.Events.PageLoad, function(){
+	window.eventObj = {};
+	/*
+	 * 
+	 * Init SCAnimation
+	 * 
+	 * 
+	 */
+	
+
+	/*
+	 *
+	 *   Init Shake
+	 *
+	 */
+	window.addEventListener('shake', function () {
+		
+	}, false);
+	
+	/*
+	 *
+	 *   Init Masked Images
+	 *
+	 */
+	 
+
+ 	/*
+	 * 
+	 * Init SCPhotogallery
+	 * 
+	 * 
+	 */
+	
+
+ 	/*
+	 * 
+	 * Init SCQuizMulti
+	 * 
+	 * 
+	 */
+	
+
+ 	/*
+	 * 
+	 * Init SCDrawer
+	 * 
+	 * 
+	 */
+	
+var drawerObj648 = new Drawer('obj648', {
+	backgroundColor: "rgba(255,255,255,0.8431373)",
+	autosave: true,
+	annotationMode: false,
+	eraseDialogMessage: "Are you sure to erase your drawing?",
+	eraseButtonLabel: "Erase",
+	eraseCancelLabel: "Cancel",
+	noteDeletionMessage: "Are you sure to delete this note?",
+	noteDeletionDeleteButtonLabel: "Delete",
+	noteDeletionCancelButtonLabel: "Cancel"
+});
+    
+ 	/*
+	 * 
+	 * Init SCWPanZoom
+	 * 
+	 * 
+	 */
+	
+    
+ 	/*
+	 * 
+	 * Init SCWMemoryGame
+	 * 
+	 * 
+	 */
+	
+
+	/*
+	 * 
+	 * Init SCCrosswords
+	 * 
+	 * 
+	 */
+	
+
+	/*
+	 * 
+	 * Init SCFillInTheGaps
+	 * 
+	 * 
+	 */
+	
+
+	/*
+	 * 
+	 * Init SCTrueFalse
+	 * 
+	 * 
+	 */
+	
+	
+	/*
+	 * 
+	 * Init SCMatchWordWithPicture
+	 * 
+	 * 
+	 */
+	
+    
+    
+
+	if(! navigator.userAgent.match(/PubCoderHelper/i)) {
+		/*
+		 *
+	 	 *   Action Groups
+	 	 *
+	 	 */
+		
+		
+
+		/*
+		 *
+	 	 *  Events
+	 	 *
+	 	 */
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		/*
+		 *
+	 	 *  Page is ready to be played
+	 	 *
+	 	 */
+		XPUB.ready();
+	 }
+});
+
+$(window).on(pubcoder.events.pagePlay, function() {
+	$(window).trigger(pubcoder.events.pageReady);
+	if (pubcoder.isInteractionObserverSupported) {
+		var ob = new IntersectionObserver(function(entries) {
+			$(entries).each(function (index, entry) {
+				if (entry.isIntersecting) {
+					$(entry.target).trigger(pubcoder.events.appear);
+				} else {
+					$(entry.target).trigger(pubcoder.events.disappear);
+				}
+			});
+		}, {
+			root: null,
+			rootMargin: "0px",
+			threshold: 0
+		});
+		$(".SCView").each(function (i, el) {
+			ob.observe(el);
+		});	
+	}
+	
+$("#obj646").trigger('SCEventShow');
+$("#obj648").trigger('SCEventShow');
+$("#obj664").trigger('SCEventShow');
+$("#obj662").trigger('SCEventShow');
+$("#obj2020").trigger('SCEventShow');
+	
+
+});
